@@ -1,0 +1,34 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.page-btn {
+  background-color: white;
+  border: 1px solid #ddd;
+  color: #333333;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.page-btn.active {
+  background-color: #ff6b00;
+  color: white;
+  font-weight: bold;
+  border-color: #ff6b00;
+}
+
+.page-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.ellipsis {
+  padding: 6px 10px;
+  color: #888;
+  font-size: 14px;
+}
